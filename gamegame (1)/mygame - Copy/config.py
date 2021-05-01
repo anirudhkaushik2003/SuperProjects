@@ -1,0 +1,52 @@
+'''
+this file contains all relevant game constants
+'''
+
+# probabilities heavily depend on frame rate
+
+from colorama import Fore, Back, Style
+import math
+
+BUFFER_RIGHT = 5
+BUFFER_DOWN = 5
+
+MIN_HEIGHT = 20
+MIN_WIDTH = 60
+
+BG_COLOR = Back.BLACK
+BG_ACCENT_COLOR = Back.BLUE
+ACCENT_AMT = 0.01
+GND_COLOR = Back.MAGENTA
+SKY_COLOR = Back.MAGENTA
+
+BAR_HEIGHT = 2
+BAR_DEFAULT_COLOR = Back.GREEN
+
+ART_BASE_PATH = 'art'
+
+GND_HEIGHT = 1
+SKY_DEPTH = 1
+
+GRAVITY_Y = 0
+GRAVITY_X = 0
+DRAG_COEFF = 0.04
+
+GAME_SPEED = 0
+KEY_FORCE = 7
+
+MAX_LIVES = 3
+
+SHIELD_UP_TIME = 5
+SHIELD_SLEEP_TIME = 20
+
+MAGNET_FORCE = 1.5
+MAGNET_PROBAB = 0.003
+
+MAX_BRICK_POWER = 3
+UNBREAKABLE = 4
+
+BRICK_ROW = 2
+BRICK_COL = 5
+
+PADDLE_WIDTH = 14 
+MAX_BOUNCE_ANGLE = 5*math.pi/12.0 # 75 degrees
