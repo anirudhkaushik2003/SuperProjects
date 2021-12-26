@@ -1,0 +1,1 @@
+# Red riding hood comic
